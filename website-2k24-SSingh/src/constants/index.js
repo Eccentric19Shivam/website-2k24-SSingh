@@ -82,15 +82,24 @@ export const brainwaveServicesIcons = [
 export const roadmap = [
   {
     id: "0",
-    title: "Video Editing",
-    text: "Our team have talented members that edit videos for content on.",
+    title: "Project Planning and Content Creation",
+    text: "Our team has done various projects that wroks on ideas or concepts related to Material Science and Engineering.",
     // date: "May 2023",
     // status: "done",
-    imageUrl: roadmap1,
-    colorful: true,
+    imageUrl: roadmap3,
+    
   },
+  
   {
     id: "1",
+    title: "Connecting with Esteemed Personalities And Workshops ",
+    text: "We have connnecting with various personalities that have contributed to Material Science and have made a name for themselves. We also conduct various Workshops related to Material Science.",
+    // date: "May 2023",
+    // status: "progress",
+    imageUrl: roadmap4,
+  },
+  {
+    id: "2",
     title: "3-D Modelling With Blender And Web Developing",
     text: "We have members that are capable in 3D modelling and web developing.",
     // date: "May 2023",
@@ -98,20 +107,13 @@ export const roadmap = [
     imageUrl: roadmap2,
   },
   {
-    id: "2",
-    title: "Project Planing and Content Creation",
-    text: "Our team has done various projects that wroks on ideas or concepts related to Material Science and Engineering.",
+    id: "3",
+    title: "Video Editing",
+    text: "Our team have talented members that edit videos for content on.",
     // date: "May 2023",
     // status: "done",
-    imageUrl: roadmap3,
-  },
-  {
-    id: "3",
-    title: "Connecting with Esteemed Personalities And Workshops ",
-    text: "We have connnecting with various personalities that have contributed to Material Science and have made a name for themselves. We also conduct various Workshops related to Material Science.",
-    // date: "May 2023",
-    // status: "progress",
-    imageUrl: roadmap4,
+    imageUrl: roadmap1,
+    colorful: true,
   },
 ];
 
@@ -134,7 +136,7 @@ export const collabContent = [
   },
   {
     id: "3",
-    title: "Material Processing & Manifacturing",
+    title: "Material Processing & Manufacturing",
   },
   {
     id: "4",
@@ -228,7 +230,7 @@ export const benefits = [
   {
     id: "2",
     title: "Dr. Jhonsen's Nitinol Engine",
-    text: "Utilizes the unique properties of Nitinol alooy to generate mechanical motiom form heat.",
+    text: "Utilizes the unique properties of Nitinol alloy to generate mechanical motiom form heat.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -236,7 +238,7 @@ export const benefits = [
   {
     id: "3",
     title: "Development and Optimization of a Jet Engine",
-    text: "Focuses in the desing, development and optimization of jet engine as a propulsion system for various application.",
+    text: "Focuses in the testing, development and optimization of jet engine as a propulsion system for various application.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
